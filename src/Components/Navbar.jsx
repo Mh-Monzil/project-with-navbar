@@ -52,7 +52,7 @@ const Navbar = () => {
                     routes.map(route => <li key={route.id}><a className="font-semibold text-lg hover:text-rose-600 ease-in-out duration-300" href="">{route.name}</a></li>)
                 }
                 
-                <button className="w-fit bg-rose-500 px-6 py-2 rounded-md text-white font-semibold hover:bg-rose-600">Get Started</button>
+                <button className="btn w-fit bg-rose-500 px-6 py-2 rounded-md text-white font-semibold hover:bg-rose-600">Get Started</button>
             </ul>
         </nav>
     );

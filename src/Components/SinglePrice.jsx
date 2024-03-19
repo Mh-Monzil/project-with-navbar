@@ -6,7 +6,7 @@ const SinglePrice = ({card}) => {
     return (
         <div className="card w-full md:w-96 mx-auto bg-base-100 shadow-xl border">
             <div className="card-body flex flex-col">
-                <h2 className='text-4xl font-semibold text-center'>${price}/ <span>month</span></h2>
+                <h2 className='text-4xl font-semibold text-center text-rose-500'>${price}/<span className='text-black text-xl'>month</span></h2>
                 <h2 className="text-2xl font-semibold pt-4">{name}</h2>
                 <div className='flex-grow'>
                     {
