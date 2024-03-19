@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
                 
             </div>
-            <ul className={`flex flex-col md:items-center gap-4 md:flex-row md:gap-6 lg:gap-10 bg-teal-300 md:bg-white absolute md:static top-[74px] ${menu ? "top-[75px]" : "-top-[800px]"} w-full md:w-fit md:top-0 md:m-4 p-4 duration-700 ease-in-out z-10`}>
+            <ul className={`flex flex-col md:items-center gap-4 md:flex-row md:gap-6 lg:gap-10 bg-teal-300 md:bg-white absolute md:static ${menu ? "top-[75px]" : "-top-[800px]"} w-full md:w-fit md:top-0 md:m-4 p-4 duration-700 ease-in-out z-10`}>
                 {
                     routes.map(route => <li key={route}><a className="font-semibold text-lg hover:text-rose-600 ease-in-out duration-300" href="">{route.name}</a></li>)
                 }
